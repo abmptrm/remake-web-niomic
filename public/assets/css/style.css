@@ -1,0 +1,10 @@
+h1 .typewrite {
+  font-size: 47px;
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+  background: none;
+  background-image: linear-gradient(110deg, rgba(255, 193, 7, 0.4) 0%, rgba(255, 193, 7, 0.4) 100%);
+  /* background-repeat: no-repeat; */
+  background-size: 0% 1em;
+}
