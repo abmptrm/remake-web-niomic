@@ -19069,7 +19069,39 @@ iframe {
 }
 
 .icon-item#instagram:hover, .icon-item#instagram:focus {
-  background-image: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+  background-color: #D164DA;
+}
+
+.icon-item#youtube {
+  background: #fffefe;
+}
+
+.icon-item#youtube:hover, .icon-item#youtube:focus {
+  background-color: red;
+}
+
+.icon-item#tiktok {
+  background: #fffefe;
+}
+
+.icon-item#tiktok:hover, .icon-item#tiktok:focus {
+  background-color: #000;
+}
+
+.icon-item#spotify {
+  background: #fffefe;
+}
+
+.icon-item#spotify:hover, .icon-item#spotify:focus {
+  background-color: #4CD860;
+}
+
+.icon-item#linkedin {
+  background: #fffefe;
+}
+
+.icon-item#linkedin:hover, .icon-item#linkedin:focus {
+  background-color: #15487D;
 }
 
 .icon-item#twitter {
