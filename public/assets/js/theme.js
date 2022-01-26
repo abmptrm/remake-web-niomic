@@ -306,12 +306,16 @@ var navbarInit = function navbarInit() {
 
       if (alpha === 0) {
         navbar.classList.remove('backdrop');
-      }
-
-      alpha >= 1 && (alpha = 1);
+         console.log("top")
+         navbar.style.backgroundColor = "#fff"
+      }else{
+         alpha >= 1 && (alpha = 1);
       navbar.style.backgroundColor = "rgba(".concat(colorRgb[0], ", ").concat(colorRgb[1], ", ").concat(colorRgb[2], ", ").concat(alpha, ")");
       navbar.style.backgroundImage = alpha > 0 || utils.hasClass(navbarCollapse, 'show') ? backgroundImage : 'none';
       alpha > 0 || utils.hasClass(navbarCollapse, 'show') ? navbar.classList.add(paddingName) : navbar.classList.remove(paddingName);
+      }
+
+     
     }); // Toggle bg class on window resize
 
     utils.resize(function () {
@@ -323,6 +327,7 @@ var navbarInit = function navbarInit() {
         // navbar.classList.add(bgClassName);
         // navbar.classList.add(paddingName);
         navbar.style.backgroundImage = backgroundImage;
+
       }
 
       if (window.innerWidth <= breakPoint) {// navbar.style.transition = utils.hasClass(navbarCollapse, 'show') ? transition : 'none';

@@ -4824,6 +4824,7 @@ fieldset:disabled .btn {
   padding-right: 1rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
+  background: #fff;
 }
 
 .navbar > .container,
@@ -4943,6 +4944,7 @@ fieldset:disabled .btn {
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
+  
 }
 
 @media (min-width: 576px) {
