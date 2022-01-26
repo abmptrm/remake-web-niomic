@@ -8,3 +8,8 @@ h1 .typewrite {
   /* background-repeat: no-repeat; */
   background-size: 0% 1em;
 }
+
+
+i .fa-caret-right:hover {
+  color:#f7922e;
+}
