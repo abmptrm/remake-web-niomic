@@ -10,6 +10,8 @@ h1 .typewrite {
 }
 
 
-i .fa-caret-right:hover {
+.silabus:hover{
   color:#f7922e;
+  text-decoration: none;
+
 }
