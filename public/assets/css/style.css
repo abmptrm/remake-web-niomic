@@ -13,5 +13,14 @@ h1 .typewrite {
 .silabushover:hover{
   color:#000;
   text-decoration: none;
-
 }
+
+.image-office {
+  /* height: 110px;
+  width: 200px; */
+  height: 5rem;
+}
+
+/* .media .icon.icon-sm {
+  height: 2.25rem;
+} */
