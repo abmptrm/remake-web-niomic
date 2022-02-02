@@ -21,3 +21,11 @@ h1 .typewrite {
   height: 5rem;
 }
 
+.hover {
+  transition: 0.5s;
+}
+
+.hover:hover{
+  transform: translateY(-10px);
+
+}
