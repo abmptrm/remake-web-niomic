@@ -22,10 +22,19 @@ h1 .typewrite {
 }
 
 .hover {
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .hover:hover{
-  transform: translateY(-10px);
+  transform: translateY(-8px);
+
+}
+
+.hover-x {
+  transition: 0.3s;
+}
+
+.hover-x:hover{
+  transform: translateX(5px);
 
 }
