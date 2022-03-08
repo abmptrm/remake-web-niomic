@@ -23,7 +23,17 @@
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="assets/css/theme.css" rel="stylesheet" />
+    <!-- Slick CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/> -->
+    <link rel="stylesheet" type="text/css" href="assets/js/slick-src/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/js/slick-src/slick/slick-theme.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/> -->
+
     <link rel="stylesheet" href="assets/css/style.css" />
+
+
   </head>
 
   <body>
@@ -280,7 +290,7 @@
       </section>
       <!-- <section> close ============================-->
       <!-- <section> sistem belajar ============================-->
-      <section class="pt-5 pt-md-9" id="service">
+      <section class="pt-5 pt-md-9 ps-7 pe-7" id="service">
         <div class="container">
           <div class="position-absolute z-index--1 end-0 d-none d-lg-block"><img src="assets/img/category/shape.svg" style="max-width: 200px" alt="service" /></div>
           <div class="mb-7 text-center">
@@ -297,7 +307,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-3 col-sm-6 mb-6">
-              <div class="card shadow-lg p-3 mb-5 bg-body rounded hover">
+              <div class="card shadow-lg p-3 mb-5 bg-body rounded hoverrr">
                 <img src="assets/img/niomic/sistem-belajar.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Sistem Belajar</h5>
@@ -307,7 +317,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-6">
-              <div class="card shadow p-3 mb-5 bg-body rounded hover">
+              <div class="card shadow p-3 mb-5 bg-body rounded hoverrr">
                 <img src="assets/img/niomic/c-silabus.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Syllabus</h5>
@@ -317,7 +327,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-6">
-              <div class="card shadow p-3 mb-5 bg-body rounded hover">
+              <div class="card shadow p-3 mb-5 bg-body rounded hoverrr">
                 <img src="assets/img/niomic/c-keuntungan.png  " class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Keuntungan kamu</h5>
@@ -337,9 +347,9 @@
       <!-- <section> begin ============================-->
       <section id="testimonial" style="background-color: #f1f1f1">
         <div class="container-fluid">
-          <div class="row justify-content-center align-items-center">
+          <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5">
-              <div class="mb-5 ps-8 text-center">
+              <div class="mb-5  text-center">
                 <h1
                   class="text-capitalize fs-xl-10"
                   style="font-family: 'Poppins', 'Rubik', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
@@ -351,42 +361,17 @@
               </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="col-lg-6">
-              <div class="pe-8 ps-lg-0">
+            <div class="col-lg-5">
+              <div class="ps-lg-0">
                 <div class="text-end">
-                  <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                      <img src="assets/img/carousel/1.png" style="width:100%">
-
+                  <div class="wrapper">
+                    <div class="carousel">
+                      <div><img src="assets/img/carousel/1.png" style="width:100%"></div>
+                      <div><img src="assets/img/carousel/2.png" style="width:100%"></div>
+                      <div><img src="assets/img/carousel/3.png" style="width:100%"></div>
+                      <div><img src="assets/img/carousel/4.png" style="width:100%"></div>
                     </div>
-                    
-                    <div class="mySlides fade">
-                      <img src="assets/img/carousel/2.png" style="width:100%">
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <img src="assets/img/carousel/3.png" style="width:100%">
-  
-                    </div>
-
-                    <div class="mySlides fade">
-                      <img src="assets/img/carousel/4.png" style="width:100%">
-  
-                    </div>
-
-                    
-                    
-                    </div>
-                    <br>
-                    
-                    <div style="text-align:center">
-                      <span class="dot"></span> 
-                      <span class="dot"></span> 
-                      <span class="dot"></span> 
-                      <span class="dot"></span> 
-                    </div>
-                </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -480,14 +465,14 @@
               class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize"
               style="font-family: 'Poppins', 'Rubik', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
             >
-            List Gelombang Pendaftaran 
+            List Gelombang Pendaftaran
             </h3>
             <!-- <p class="fs-2 mb-4 py-5 fw-medium text-center">Lulusan kami telah bekerja di lebih dari 100 perusahaan di seluruh Indonesia.</p> -->
           </div>
           <div class="row ms-7 d-flex justify-content-center align-items-center">
             <div class="col-xl-10 col-lg-11">
-              
-                
+
+
                   <!-- <img src="https://asset-niomic.s3-ap-southeast-1.amazonaws.com/niomicv3/c_assets/sistem+belajar/c-akses-materi.png" alt="Icon" class="icon icon-lg" style="width: 30%; height: 20%" /> -->
                     <div class="">
                       <table class="table table-borderless fs-1">
@@ -541,8 +526,8 @@
                             <td>Learning</td>
                             <td style="color:#f7922e">Close</td>
                           </tr>
-                          
-                          
+
+
                         </tbody>
                       </table>
 
@@ -551,16 +536,16 @@
                       </div>
 
                     </div>
-                    
-                    
-                    
+
+
+
                 </div>
             </div>
           </div>
         </section>
       </section>
         <!-- end of .container-->
-      
+
       <!-- =============================================== -->
 
       <!-- ============================================== -->
@@ -671,10 +656,10 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="vendors/fontawesome/all.min.js"></script>
     <script src="assets/js/theme.js"></script>
-    
-
+    <script type="text/javascript" src="assets/js/slick-src/slick/slick.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <script>
       $(document).on("click", ".detailTeknologi", function () {
         var nama_materi = $(this).data("nama_materi");
@@ -684,26 +669,6 @@
         x.querySelector(".judulTeknologi").innerHTML = nama_materi;
         x.querySelector(".keteranganTeknologi").innerHTML = keterangan;
       });
-
-      var slideIndex = 0;
-      showSlides();
-
-      function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); 
-      }
 
     </script>
   </body>

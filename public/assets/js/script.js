@@ -54,3 +54,15 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.09em solid #000 }";
     document.body.appendChild(css);
 };
+
+
+
+// =================================
+
+  $('.carousel').slick({
+    arrow: false,
+    infinite: true,
+    speed: 300,
+    autoplay: true,
+    dots: true
+  });
