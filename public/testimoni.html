@@ -24,6 +24,11 @@
     <!-- ===============================================-->
     <link href="assets/css/theme.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="assets/js/slick-src/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/js/slick-src/slick/slick-theme.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
   </head>
 
   <body>
@@ -39,49 +44,109 @@
           </button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
-              
+
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#!">Login</a></li>
-              
+
               <button type="button" class="btn btn-default btn-lg rounded-pill " style="background-color: #f7922e; color: white">Daftar Sekarang</button>
             </ul>
           </div>
         </div>
       </nav>
-      
-      
+
+
       <section id="testimonial">
         <div class="container mt-10">
-          <div class="row justify-content-center align-items-center mt-lg-9">
-            <div class="col-lg-5">
-              <div class="mb-8 ">
-               
+          <div class="row js-slick-carousel">
 
+      <div class="col">
+        <div class="card">
+          <img class=" card-img gambar" src="https://via.placeholder.com/1000x560" alt="" />
 
-                
-                <!-- <h1
-                  class="text-capitalize fs-xl-10"
-                  style="font-family: 'Poppins', 'Rubik', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
-                >
-                  Testimoni
-                </h1>
-                <p class="fs-2 mb-4 fw-medium text-justify">
-                  Lulusan kami telah bekerja di lebih dari 100 perusahaan di seluruh Indonesia. Ini cerita sukses dan pengalaman mereka yang sudah belajar di NIOMIC.
-                </p>
-                <a class="btn btn-primary btn-lg me-md-4 mb-md-0 rounded-pill border-0 primary-btn-shadow hover" href="testimoni.html" role="button" style="background-color: #f7922e; color: white">Lihat Testimoni</a> -->
-                
-              </div>
+          <!-- <div class="card-body p-16to9">
+
+            <div class="card-body-content">
+              <h5 class="card-title">Card 1</h5>
+              <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat pretium fermentum. Praesent vestibulum at tellus eget dapibus. Proin eu metus quis arcu iaculis mattis.
+              </p>
             </div>
-            <div class="col-lg-1"></div>
-            
-          </div>
-          <div class="row">
-            <div class="col-lg-10 ">
-                <div class="pe-7 ps-5 ps-lg-0">
-                  
-                </div>
-              </div>
-          </div>
+
+          </div> -->
+
         </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class=" card-img gambar" src="assets/img/niomic/torich_testimoni.png" alt="" />
+          <!-- <div class="card-body p-16to9">
+
+            <div class="card-body-content">
+              <h5 class="card-title">Card 5</h5>
+              <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat pretium fermentum. Praesent vestibulum at tellus eget dapibus. Proin eu metus quis arcu iaculis mattis.
+              </p>
+            </div>
+
+          </div> -->
+        </div>
+      </div>
+
+      <!-- second half cards -->
+
+      <div class="col">
+        <div class="card">
+          <img class=" card-img gambar" src="assets/img/niomic/torich_testimoni.png" alt="" />
+          <!-- <div class="card-body p-16to9">
+
+            <div class="card-body-content">
+              <h5 class="card-title">Card 5</h5>
+              <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat pretium fermentum. Praesent vestibulum at tellus eget dapibus. Proin eu metus quis arcu iaculis mattis.
+              </p>
+            </div>
+
+          </div> -->
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class=" card-img gambar" src="assets/img/niomic/iqbal_testimoni.png" alt="" />
+          <!-- <div class="card-body p-16to9">
+
+            <div class="card-body-content">
+              <h5 class="card-title">Card 6</h5>
+              <p class="card-text">
+                  In dictum imperdiet sapien, eu interdum nulla posuere non.
+              </p>
+            </div>
+
+          </div> -->
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img gambar" src="assets/img/niomic/wawan_testimoni.png" alt="" />
+          <!-- <div class="card-body p-16to9">
+
+            <div class="card-body-content">
+              <h5 class="card-title">Card 7</h5>
+              <p class="card-text">
+                  Vivamus pellentesque mauris placerat sem finibus dignissim. Maecenas auctor, ex sit amet porttitor vehicula, magna nisi accumsan tortor, sit amet finibus metus justo sed lorem.
+              </p>
+            </div>
+
+          </div> -->
+        </div>
+      </div>
+
+
+
+  </div>
+          <!-- </div> -->
+
         <!-- end of .container-->
       </section>
 
@@ -152,7 +217,7 @@
         </section>
         <!-- <section> close ============================-->
         <!-- ============================================-->
-  
+
         <div class="py-5 text-center">
           <p class="mb-0 text-secondary fs--1 fw-medium">© 2021 PT. Cerdaskan Generasi Bangsa. All Rights Reserved.</p>
         </div>
@@ -182,6 +247,12 @@
         var x = document.getElementById("exampleModal");
         x.querySelector(".judulTeknologi").innerHTML = nama_materi;
         x.querySelector(".keteranganTeknologi").innerHTML = keterangan;
+      });
+
+      $('.testimoni-carousel').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
       });
     </script>
   </body>
