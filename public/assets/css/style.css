@@ -62,31 +62,13 @@ h1 .typewrite {
   color:#f7922e;
 }
 
-.testimoni-carousel {
-  /* width:100%; */
-  margin:2px auto;
-}
 
-.aspect-16to9 {
-  /* height: 100%; */
-  width: 100%;
-}
-
-.p-16to9 {
-  position: relative;
-  padding-bottom: 56%;
-  overflow: hidden;
-}
-
-.card-body-content {
-  position: absolute;
-  top: 1rem;
-  bottom: 1rem;
-  right: 1rem;
-  left: 1rem;
-  overflow: hidden;
-}
-
-.gambar {
+.carousel-testimoni-f .card {
   width:100%;
+  
+}
+
+.carousel-testimoni-f .card img {
+  width:100%;
+  height:100%;
 }
